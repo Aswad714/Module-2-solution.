@@ -1,0 +1,93 @@
+	*{	
+	margin: 0px;
+	padding: 0px;
+	font-family: cursive;
+}
+.menu{
+	float: center;
+	color: black;
+	width: 100%;
+	margin-top: 20px;
+	font-size: 20px;
+	margin-bottom: 50px;
+}
+.main {
+	width: 30%;
+	background-color: grey;
+text-align: justify;
+
+height: 50 %;
+margin: 10px;
+box-sizing: border-box;
+border: 3px solid black;
+
+}
+
+.large {
+	display: table;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-around;
+}
+
+.choti {
+	float: right;
+	width: 110px;
+	background-color: pink;
+	 border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+
+}
+.choti1 {
+	width: 110px;
+	float: right;
+	background-color: red;
+	border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+.choti2 {
+	width: 110px;
+	float: right;
+	border: 2px solid black;
+  padding: 5px;
+  text-align: center;
+	background-color: yellow;
+}
+span {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+@media screen and (max-width: 1200px)
+	{
+		.main {
+
+			width: 30%;
+		
+			}
+	}
+
+@media screen and (max-width: 600px)
+	{
+		.main {
+
+			width: 30%;
+		
+			}
+	}
+
+@media screen and (max-width: 200px)
+	{
+		.main {
+
+			width: 30%;
+		
+			}
+	}
+
